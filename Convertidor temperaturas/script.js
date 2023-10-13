@@ -21,7 +21,7 @@ if (tempCel !== "" && tempCel !== null) { // Comprobar si el valor no es una cad
   const tempFar = tempCel * 9 / 5 + 32;
   const tempKev = tempCel + 273.15;
 
-  console.log(`${tempCel}°C = Equivalen a ${tempFar}°F y a ${tempKev}K`);
+  console.log(`${tempCel}°C = Equivalen a ${tempFar}°F y a ${tempKev}°K`);
 }
 
 // let tempCel;
